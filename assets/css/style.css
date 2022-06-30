@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/*Fuente*/
+@font-face {
+    font-family: "myriad";
+    src: url(../font/myriad.ttf);
+}
+
+.font{
+    font-family: "myriad";
+    color: #ffff;    
+}
+
+.font-black{
+    font-family: "myriad";
+    color: #000;    
+}
+
+/*Iconos*/
+@import url(../icofont/icofont.min.css);
+
+/*Navbar*/
+.bg-nav-color{
+    background: linear-gradient(125deg, rgba(30,67,86,1) 0%, rgba(24,114,161,1) 97%);
+}
+
+.navbar-brand a{
+    font-family: "myriad";
+    text-decoration: none;
+    color: #ffff;
+}
+
+.navbar-{
+    color: #fff;
+}
+
+.nav-link{
+    color: #ffff;
+    font-family: "myriad";
+    
+}
+
+.nav-link a{
+    text-decoration: none;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+/*Header*/
+.pagina-titulo{
+    background-color: #f3f8fa;
+    font-family: "myriad";
+}
+
+/*Main index*/
+.main-bienvenida{
+    background-image: url(../img/mikine-kinesiologia-osteopatia-home.jpg); background-size: cover; height: 80vh;
+}
+
+.bg-img{
+    background-color: rgb(30,67,86,0.5);
+    height: 100%;
+}
+
+
+.reserva__boton{
+	box-shadow: 0px 10px 11px -7px #276873;
+    background: linear-gradient(125deg, rgba(30,67,86,1) 0%, rgba(24,114,161,1) 97%);
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+
+.reserva__boton:hover {
+	background: linear-gradient(125deg, rgb(67, 118, 143) 0%, rgba(24,114,161,1) 97%);
+}
+.reserva__boton:active {
+	position:relative;
+	top:1px;
+}
+
+/*Main Servicios*/
+.service-item-color{
+    color: #ffff;
+}
+
+.card-header{
+    background: linear-gradient(125deg, rgba(30,67,86,1) 0%, rgba(24,114,161,1) 97%);
+}
+
+.card-text{
+    font-family: "myriad";
+}
+
+/*Profesionales*/
+.bg-color-profesionales{
+    background: linear-gradient(125deg, rgba(30,67,86,1) 0%, rgba(24,114,161,1) 97%);
+    height: 100px;
+    margin-bottom: 110px;
+}
+
+.ul-padding{
+    padding: 0;
+}
+
+.font-profesionales{
+    font-family: "myriad";
+}
+
+/*Contacto*/
+.font-contacto{
+    font-family: "myriad";
+    color: black;
+}
+
+.font-contacto a    {
+    font-family: "myriad";
+    color: black;
+}
+
+.titulo-contacto{
+    color: #ffff;
+}
+
+.titulo-height{
+    max-height: 33.59px;
+}
+
+.box-shadow{
+    box-shadow: 0px 10px 14px -7px #1e4356;
+    border-radius:5px;
+}
+
+/*Turnos*/
+.calendar-size{
+    max-width: 655px;
+}
+
+
+
+/*Footer*/
+.footer-color{
+    background: linear-gradient(125deg, rgba(30,67,86,1) 0%, rgba(24,114,161,1) 97%);
+    color: #ffff;
+    font-family: "myriad";
+}
+
+.link-facebook{
+    color: #fff;
+}
+
+.font a{
+    color: #fff;
+    font-family: "myriad";
+}
+
+@media (min-width: 992px){
+
+    .nav-link:hover {
+        transform:scale(1.1,1.1);
+    }
+
+    .efecto:hover{
+        transform:scale(1.1,1.1);
+        transition: 1s;
+    }
+
+    .link-facebook:hover{
+        transform:scale(1.1,1.1)
+    }
+
+    .link-email:hover{
+        transform:scale(1.1,1.1)
+    }
+}
+
+
