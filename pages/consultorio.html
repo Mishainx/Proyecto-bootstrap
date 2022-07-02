@@ -8,10 +8,11 @@
     <link rel="shortcut icon" href="../assets/img/mikine-favicon-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../assets/icofont/icofont.css">
     <!--CSS Only-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body class="container-fluid">
+<body>
 
   <!--Inicio Navbar-->
   <nav class="navbar navbar-expand-lg bg-dark bg-nav-color ps-2 sticky-top">
@@ -50,9 +51,9 @@
 
   <header>
     <div class="col-12 pagina-titulo">
-        <h2 class="ps-2">
+        <h1 class="ps-2 display-6">
             Consultorio
-        </h2>
+        </h1>
     </div>
   </header>
     <!--====== Fin Header=====-->
@@ -60,7 +61,7 @@
     <!--====== Inicio Main =====-->
     <main class= "d-flex align-items-center justify-content-center">
         <!--Inicio Carousel--> <!--quitar style-->
-        <div id="carouselExampleFade" class="carousel slide carousel-fade my-5 box-shadow " style="width: 700px;" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade my-5 box-shadow " style="width: 700px;" data-bs-ride="carousel" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="../assets/img/consultorio/mikine-consultorio-frente-vidriera-kinesiologia-osteopatia.jpg" class="d-block w-100 img-fluid" alt="Foto exterior consultorio">
@@ -130,8 +131,8 @@
 
     <!--Redes sociales footer-->
     <div class="col-12 col-md-3 d-flex justify-content-center">
-      <a class="link-facebook text-decoration-none link-light" href="https://www.facebook.com/mikinesiologia" target="_blank"><i class="icofont-facebook icofont-2x"></i></a>
-      <a class="link-facebook text-decoration-none link-light" href="https://www.instagram.com/mikinesiologia" target="_blank"><i class="icofont-instagram icofont-2x"></i></a>
+      <a class="scale text-decoration-none link-light" href="https://www.facebook.com/mikinesiologia" target="_blank"><i class="icofont-facebook icofont-2x"></i></a>
+      <a class="scale text-decoration-none link-light" href="https://www.instagram.com/mikinesiologia" target="_blank"><i class="icofont-instagram icofont-2x"></i></a>
     </div>
     <!--Fin redes sociales footer-->
 
@@ -140,6 +141,10 @@
 
 
     <!--Javascript Bundle with Popper-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

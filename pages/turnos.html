@@ -8,10 +8,11 @@
     <link rel="shortcut icon" href="../assets/img/mikine-favicon-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../assets/icofont/icofont.css">
     <!--CSS Only-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body class="container-fluid">
+<body>
 
   <!--Inicio Navbar-->
   <nav class="navbar navbar-expand-lg bg-dark bg-nav-color ps-2 sticky-top">
@@ -49,22 +50,22 @@
       <!--====== Inicio Header =====-->
   <header>
     <div class="col-12 pagina-titulo">
-        <h2 class="ps-2">
+        <h1 class="ps-2 display-6">
           Turnos
-        </h2>
+        </h1>
     </div>
   </header>
     <!--====== Fin Header=====-->
 
     <!--====== Inicio Main =====-->
-  <main class="d-flex flex-column justify-content-center align-items-center">
+  <main class="d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
     
     <!--Calendario-->
     <div class="mt-5">
         <p class="font-black fs-6">Para solicitar un turno complete la siguiente información:</p>
     </div>     
 
-    <section class="col-10 d-flex justify-content-center align-items-center flex-wrap box-shadow mb-5 font calendar-size">
+    <section class="col-10 d-flex justify-content-center align-items-center flex-wrap box-shadow mb-5 font calendar-size" >
         <div class=" d-flex flex-column align-items-center text-center">         
           <div class="col-12 bg-nav-color titulo-contacto">
             <h2 >September</h2>
@@ -181,8 +182,8 @@
 
     <!--Redes sociales footer-->
     <div class="col-12 col-md-3 d-flex justify-content-center">
-      <a class="link-facebook text-decoration-none link-light" href="https://www.facebook.com/mikinesiologia" target="_blank"><i class="icofont-facebook icofont-2x"></i></a>
-      <a class="link-facebook text-decoration-none link-light" href="https://www.instagram.com/mikinesiologia" target="_blank"><i class="icofont-instagram icofont-2x"></i></a>
+      <a class="scale text-decoration-none link-light" href="https://www.facebook.com/mikinesiologia" target="_blank"><i class="icofont-facebook icofont-2x"></i></a>
+      <a class="scale text-decoration-none link-light" href="https://www.instagram.com/mikinesiologia" target="_blank"><i class="icofont-instagram icofont-2x"></i></a>
     </div>
     <!--Fin redes sociales footer-->
 
@@ -191,6 +192,10 @@
 
 
     <!--Javascript Bundle with Popper-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
