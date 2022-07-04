@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="../assets/img/mikine-favicon-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../assets/icofont/icofont.css">
     <!--CSS Only-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -57,62 +58,62 @@
     <!--====== Fin Header=====-->
 
     <!--====== Inicio Main =====-->
-  <main class= "d-flex  justify-content-evenly flex-wrap">
+  <main class= "d-flex justify-content-center flex-wrap">
     <!--Información contacto-->
-    <div class="col-9 col-md-5 font-contacto box-shadow m-4 d-flex flex-wrap justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+    <div class="col-12 col-md-7 col-lg-6 d-flex flex-wrap justify-content-center font-black text-center i-color">
 
-      <div class=" col-12 d-flex justify-content-center align-items-top text-center bg-nav-color titulo-height">
-        <h3 class="titulo-contacto mb-0">Información</h3>
-      </div>
+          <div class="col-10 col-md-5 info-box d-flex flex-column align-items-center box-shadow my-4 mx-2 i-color" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <h3 class="titulo-contacto">Dirección</h3> 
+            <i class="bx bx-map bx-md borde i-color"></i>
+            <p>Carlos Antonio López 3055 - CABA</p>
+          </div>
 
-      <div class="col-12 d-flex flex-column me-0 align-items-center fs-6">
+            <div class="col-10 col-md-5 d-flex flex-column align-items-center box-shadow my-4 mx-2 i-color" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+              <h3 class="titulo-contacto">E-mail</h3>
+              <a href="mailto:info@mikinesiologia.com" class="text-decoration-none i-color" >
+                <i class="bx bx-envelope bx-md borde i-color"></i>
+                <p>info@mikinesiologia.com</p>
+              </a>
 
-        <div class="col-11 d-flex justify-content-center m-2 6">
-          <a class="d-flex align-items-center text-decoration-none" target="_blank" href="mailto:info@mikinesiologia.com">
-            <i class="icofont-ui-email icofont-2x pe-2"></i>
-              info@mikinesiologia.com
-            </a>
-          </div>
-  
-          <div class="col-11 d-flex justify-content-center m-2 fs-6">
-            <i class="icofont-phone icofont-2x"></i></i> 4572-0179
-          </div>
-  
-          <div class="col-11 d-flex justify-content-center m-2 fs-6">
-            <a class="d-flex align-items-center text-decoration-none" target="_blank" href="https://api.whatsapp.com/send?phone=5491131800067&text=Hola!%20quisiera%20realizar%20una%20consulta.">
-              <i class="icofont-brand-whatsapp icofont-2x pe-2"></i>
-              +54 9 11 3180-0067
-            </a>
-          </div>
-  
-          <div class="col-11 d-flex justify-content-center m-2 fs-6">
-            <i class="icofont-google-map icofont-2x"></i>Carlos Antonio López 3055, CABA.
-          </div>
-      
-      </div>
+            </div>
 
+            <div class="col-10 col-md-5 d-flex flex-column align-items-center box-shadow my-4 mx-2 i-color" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+              <h3 class="titulo-contacto">WhatsApp</h3>
+              <a href="" class="text-decoration-none i-color">
+                <i class='bx bxl-whatsapp bx-md borde i-color'></i>
+                <p>11-3180-0067</p>
+              </a>
+
+            </div>
+
+            <div class="col-10 col-md-5 d-flex flex-column align-items-center box-shadow my-4 mx-2 i-color" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+              <h3 class="titulo-contacto">Teléfono</h3>
+              <i  class="bx bx-phone-call bx-md borde i-color"></i>
+              <p>4572-0179</p>
+            </div>
+             
     </div>
 
     <!--Fin información contacto-->
 
     <!--Formulario consultas-->
-    <form class="col-9 col-md-5 font-contacto box-shadow m-4 d-flex flex-column align-items-center" action="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+    <form class="col-10 col-md-4 col-lg-5 font-contacto box-shadow m-4 d-flex flex-column align-items-center" action="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
       <div class="col-12 text-center bg-nav-color mb-2">
         <h3 class="titulo-contacto mb-0">Consultas</h3>
       </div>
       <div class="col-10 mb-3 ">
-        <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+        <label for="exampleFormControlInput1" class="form-label i-color">Nombre y Apellido</label>
         <input type="text" class="form-control" id="exampleFormControlInput1" >
       </div>
       <div class="col-10 mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email:</label>
+        <label for="exampleFormControlInput1" class="form-label i-color">Email:</label>
         <input type="email" class="form-control" id="exampleFormControlInput1">
       </div>
       <div class="col-10 mb-3 ">
-        <label for="exampleFormControlTextarea1" class="form-label">Escriba su consulta:</label>
+        <label for="exampleFormControlTextarea1" class="form-label i-color">Escriba su consulta:</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
       </div>
-      <input class="col-3 mb-2"   type="button" value="Enviar">
+      <input class="col-3 mb-2 i-color"   type="button" value="Enviar">
     </form>
     
     <!--Fin formulario consultas-->
@@ -174,5 +175,6 @@
       AOS.init();
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+  </body>
 </html>

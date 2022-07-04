@@ -61,7 +61,7 @@
 /*Header*/
 .pagina-titulo{
     background-color: #f3f8fa;
-    font-family: "myriad";
+    font-family: "myriad";    
 }
 
 /*Main index*/
@@ -139,6 +139,10 @@
 
 .titulo-contacto{
     color: #ffff;
+    background:linear-gradient(125deg, rgba(30,67,86,1) 0%, rgba(24,114,161,1) 97%);
+    width: 100%;
+    color: #ffff;
+    text-align: center;
 }
 
 .titulo-height{
@@ -148,6 +152,16 @@
 .box-shadow{
     box-shadow: 0px 10px 14px -7px #1e4356;
     border-radius:5px;
+}
+
+.borde{
+    border-radius: 75%;
+    border-style: dotted;
+    padding: 8px;    
+}
+
+.i-color{
+    color: #1e4356;
 }
 
 /*Turnos*/
@@ -187,6 +201,20 @@
     .scale:hover{
             transform:scale(1.1,1.1);
             transition: all 0.4s;
+    }
+
+    .efecto-s:after {
+        content: "";
+        display: block;
+        margin: auto;
+        height: 3px;
+        width: 0px;
+        transition: all .8s;
+    }
+
+    .efecto-s:hover:after {
+    width: 100%;
+    background: linear-gradient(125deg, rgba(30,67,86,1) 0%, rgba(24,114,161,1) 97%);
     }
 }
 
